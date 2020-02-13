@@ -48,19 +48,77 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ header{
+	display:flex;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+nav{
+	display:flex;
+	justify-content: space-evenly;
+	width: 90%;
+	margin-top: 15px;
+}
+.logo{
+	display:flex;
+	justify-content: flex-end;
+	margin-top: 20px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+nav a{
+	color:grey;
+	text-decoration: none;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.start{
+	border: 1px solid red;
+	width:120%
+}
+
+h1{
+	border: 1px solid red;
+	font-size: 75px;
+	width:50%;
+	text-align:center;
+	display: flex;
+	justify-content: center;
+}
+
+.gets{
+	border: 1px solid red;
+}
+
+
+.codepic{
+	border: 1px red solid;
+	display:flex;
+	justify-content: flex-end;
+	width:600px;
+} */
