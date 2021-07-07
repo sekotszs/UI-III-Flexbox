@@ -18,11 +18,11 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	 border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -48,19 +48,80 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+
+/*	INDEX HTML HERE*/
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	width:75%;
+	padding-top: 25px;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+nav a{
+	display:flex;
+	flex:start;
+	color:grey;
+	text-decoration:none;
+	margin-left: 50px;
+	
+
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.logo{
+	display:flex;
+	justify-content: flex-end;
+	margin-left:77%
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.iod{
+	text-align: center;
+	border: 1px solid red;
+	align-items: flex-start;
+	width:15%;
+	margin-left: 15%;
+}
+
+h1{
+	display:flex;
+	margin-left: 22%;
+	margin-top: 45px;
+	font-size: 75px;
+}
+
+button{
+	background-color: white;
+	outline: black;		
+	font-size: 15px;
+	display:flex;
+	margin-left: 28%;
+	margin-top:15px;
+
+}
+
+.codepic{
+	display: flex;
+	align-items: flex-end;
+	border: 1px solid red;
+	width:25%;
+	margin-left: 50%;
+	margin-top:-290px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
